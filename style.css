@@ -1,0 +1,146 @@
+
+
+.cover {
+    width: calc(100% - 64px);
+    height: calc(100vh - 64px);
+    margin: 32px auto 0 auto;
+    background-color: #818ABA;
+    padding: 39px 68px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    margin-bottom: 196px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 96px;
+    height: 35px;
+}
+nav {
+    min-width: 480px;
+}
+ul.main-navigation {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.main-navigation li a {
+    font-family: 'Unbounded', cursive;
+    color: #666680;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.main-navigation li a:hover {
+    color: white;
+    transition: o.5s;
+}
+.header-btn {
+    background-color: #fff;
+    color: #524FD5;
+}
+.header-btn:hover {
+    opacity: 70%;
+    transition: o.5s; 
+}
+.button {
+    font-family: 'Heebo', sans-serif;
+    padding: 18px 32px;
+    font-size: 18px;
+    border-radius: 73px;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 56px;
+    line-height: 71px;
+    color: #181B32;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+.highlight-color {
+    color: #524FD5;
+    font-weight: 500;
+}
+p {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 18px; 
+    font-weight: 200;
+    line-height: 34px;
+    color: #666680;
+    margin-bottom: 32px;
+
+}
+.cover-btn {
+    background-color: #524FD5;
+    color: white;
+    display: inline-block;
+}
+
+.cover-content-wrappon {
+    margin-top: 125px;
+    display: flex;
+}
+
+.section-2 p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif; 
+    color: #B0B0C0;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.section-2 h2 {
+    color: #181B32; 
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+
+}
+.values-1 h3 {
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #181B32;
+    margin-bottom: 16px;
+}
+.values-1 p {
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 34px;
+    color: #666680;   
+}
+.valueImg {
+    width: 88px;
+    margin-bottom: 47px;
+    margin-left: 100px;
+}
+.values-1 {
+    width: 288px;
+    margin: 100px;
+}
+.values {
+    display: flex;
+    justify-content: center;
+}
+.cover-img-1 {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+    width: 550px;
+}
